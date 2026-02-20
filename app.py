@@ -17,7 +17,7 @@ if not API_KEY:
     st.stop()
 
 # Create Gemini client
-client = genai.Client(api_key="AIzaSyAkU3ObfomkSNJk4WIMq237UvtLjCo9clI")
+client = genai.Client(api_key=api_key)
 
 # -------------------------
 # Prompt for SQL generation
